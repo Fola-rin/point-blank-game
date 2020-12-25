@@ -11,7 +11,7 @@ canvas.height = innerHeight;
 let shootSound = new Audio("assets/laser.mp3")
 let enemySound = new Audio("assets/death.mp3")
 let music = new Audio("assets/music.mp3");
-let gameOverSound = new Audio("assets/game-over");
+let gameOverSound = new Audio("assets/game-over.mp3");
 
 class Player {
     constructor (x, y, radius, color) {
@@ -114,6 +114,9 @@ function init() {
     bigScoreEl.innerHTML = score;
     music.load();
     music.play();
+    setInterval(() => {
+        music.play();
+    }, 180000);
 }
 
 function enemyMaker() {

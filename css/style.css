@@ -8,11 +8,11 @@ body {
 	top: 20%;
 }
 .title-card {
-	font-family: 'Karmatic Arcade', sans-serif;
+	font-family: 'Press Start 2P', cursive;
 	color:white;
 	text-align: center;
 	margin: auto;
-	font-size: 24px;
+	font-size: 16px;
 }
 .score {
 	top:0;
