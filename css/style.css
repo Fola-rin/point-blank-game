@@ -1,0 +1,19 @@
+body {
+	margin:0;
+	background-color: black;
+}
+.title-div {
+	position: fixed;
+	width: 100%;
+	top: 20%;
+}
+.title-card {
+	font-family: 'Karmatic Arcade', sans-serif;
+	color:white;
+	text-align: center;
+	margin: auto;
+	font-size: 24px;
+}
+.score {
+	top:0;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<link href="http://fonts.cdnfonts.com/css/karmatic-arcade" rel="stylesheet">
+                
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="title-div">
+		<h1 class="title-card">
+		POINT BLANK
+		</h1>
+	</div>
+	<div class="fixed text-white ml-2 mt-1 select-none text-sm score">
+		<span>Score: </span><span id= "Score">0</span>
+	</div>
+	<div class= "fixed inset-0 flex items-center 
+	justify-center" id = "modalEl">
+		<div class = "bg-white max-w-xs w-full p-6 text-center rounded-lg">
+			<h1 class="text-3xl font-bold leading-none" id = "bigScore">0</h1>
+			<p class="text-gray-700 mb-4">Points</p>
+			<div>
+				<button class = "bg-blue-500 text-white w-60 py-2 rounded-full"id= "startGamebtn"> Start Game</button>
+			</div>
+		</div>
+	</div>
+	<canvas></canvas>
+	<script src="js/main.js"></script>
+</body>
+</html>
